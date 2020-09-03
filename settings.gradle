@@ -1,0 +1,4 @@
+rootProject.name = 'KotlinMPPAlpha'
+
+
+enableFeaturePreview('GRADLE_METADATA')
