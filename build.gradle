@@ -64,7 +64,9 @@ kotlin {
             framework()
         }
     }
-    android()
+    android() {
+        publishLibraryVariants("release", "debug")
+    }
     sourceSets {
         commonMain {
             dependencies {
